@@ -1,3 +1,4 @@
+import 'abstructclass.dart';
 import 'class_object_contructor.dart';
 //import 'inheritance.dart';
 import 'mixin.dart';
@@ -29,5 +30,10 @@ void main() {
   Custommer custommer = new Custommer();
   custommer.userType='custommer';
   custommer.displayCheckCart();
+
+/////Abstract class object
+  MathClass mathclass = new MathClass();
+   var sum =mathclass.add(10, 20);
+  print(sum);
 
 }
